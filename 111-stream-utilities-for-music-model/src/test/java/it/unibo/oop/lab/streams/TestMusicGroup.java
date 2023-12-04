@@ -121,6 +121,7 @@ final class TestMusicGroup {
      */
     @Test
     void testLongest() {
+        System.out.println(lz.longestSong().get());
         assertEquals("When the Levee Breaks", lz.longestSong().get());
         assertEquals(UNTITLED, lz.longestAlbum().get());
     }
